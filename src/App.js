@@ -1,14 +1,18 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import React from "react";
 
-import DataTable from "./DataTable";
-import "bootstrap/dist/css/bootstrap.min.css";
+import StepTwo from "./Step_3";
 
+// import DataTable from "./DataTable";
+import DataTableMaterialUI from "./Step_2";
 function App() {
   return (
     <div className="App">
-      <DataTable />
+      {/* <DataTable /> */}
+      <DataTableMaterialUI />
+      {/* <StepTwo /> */}
     </div>
   );
 }

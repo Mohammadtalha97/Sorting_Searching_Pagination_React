@@ -68,7 +68,7 @@ const DataTable = () => {
 
   return (
     <>
-      <Header title="Building a data table in react" />
+      {/* <Header title="Building a data table in react" /> */}
 
       {/* <ExternalInfo page="datatable" /> */}
 
